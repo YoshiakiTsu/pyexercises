@@ -5,4 +5,4 @@ largura = float(input())
 print ("insira o comprimento da sua sala")
 comprimento = float(input())
 area = largura * comprimento
-print ("a largura da sua sala é: ", area)
+print ("a área da sua sala é: ", area)
