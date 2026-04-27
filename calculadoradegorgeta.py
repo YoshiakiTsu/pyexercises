@@ -1,0 +1,10 @@
+print ("calculadora de gorgeta")
+input ("pressione enter para continuar")
+print ("insira o valor da conta: ")
+valor_conta = float(input())
+print ("insira a porcentagem da gorgeta: ")
+porcentagem_gorgeta = float(input())
+gorgeta = valor_conta * (porcentagem_gorgeta / 100)
+total = valor_conta + gorgeta
+print("o valor da gorgeta é: ", gorgeta)
+print("o total da conta fica: ", total)
